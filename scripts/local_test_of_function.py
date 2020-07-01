@@ -38,9 +38,9 @@ By default test results are written to a file named df_test_entity_for_<function
 This file will be written to the working directory.
 
 '''
-from customagg.functions import HelloWorldAggregator
+from customagg.functions import HelloWorldAggregatorVC
 
-fn = HelloWorldAggregator(
+fn = HelloWorldAggregatorVC(
         source = ['speed'],
         expression = '${GROUP}.max()'
         )

@@ -13,9 +13,9 @@ logger = logging.getLogger(__name__)
 # Specify the URL to your package here.
 # This URL must be accessible via pip install
 
-PACKAGE_URL = 'git+https://github.com/ankit-jha/addCustomIotFn@starter_agg_package'
+PACKAGE_URL = 'git+https://github.com/ValerianClerc/addCustomIotFn@starter_agg_package'
 
-class HelloWorldAggregator(BaseSimpleAggregator):
+class HelloWorldAggregatorVC(BaseSimpleAggregator):
     '''
     The docstring of the function will show as the function description in the UI.
     '''
