@@ -15,6 +15,6 @@ with open('credentials_as.json', encoding='utf-8') as F:
 db_schema = None
 db = Database(credentials=credentials)
 
-from customagg.functions import SimpleAggregatorVC
+from customagg.functions import HelloWorldAggregatorVC
 
-db.register_functions([SimpleAggregatorVC])
+db.register_functions([HelloWorldAggregatorVC])
